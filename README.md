@@ -64,19 +64,6 @@ vectorstore = FAISS.from_documents(chunks, embeddings)
 
 # Load and evaluate models
 # See complete implementation in rag_evaluation_code.py
-```
-
-## 📋 File Structure
-
-```
-rag-model-evaluation/
-├── source_document.txt           # IT support documentation
-├── rag_evaluation_code.py        # Main evaluation script
-├── rag_evaluation_results.csv    # Detailed results (15 evaluations)
-├── rag_evaluation_summary.csv    # Summary statistics by model
-├── requirements.txt              # Python dependencies
-└── README.md                     # This file
-```
 
 ## 🔍 Evaluation Metrics Explained
 
@@ -193,12 +180,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - LangChain community for RAG framework components
 - Google Colab for providing computational resources
 - Open source contributors to evaluation metric implementations
-
-## 📞 Contact
-
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: your.email@domain.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
 
 ---
 
